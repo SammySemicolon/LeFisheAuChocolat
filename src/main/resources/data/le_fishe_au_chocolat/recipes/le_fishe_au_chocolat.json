@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    "YXY",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cod"
+    },
+    "Y": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "le_fishe_au_chocolat:le_fishe_au_chocolat"
+  }
+}

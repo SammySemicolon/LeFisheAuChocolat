@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+license = "All rights reserved"
+[[mods]]
+logoFile = "le_fishe_au_chocolat.png"
+modId = "le_fishe_au_chocolat"
+version = "${file.jarVersion}"
+displayName = "Le Fishe Au Chocolat"
+authors = "Sammy;"
+description = '''
+https://www.youtube.com/watch?v=njFw1NOAu3s
+'''
+[[dependencies.le_fishe_au_chocolat]]
+modId = "forge"
+mandatory = true
+versionRange = "[39,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.le_fishe_au_chocolat]]
+modId = "minecraft"
+mandatory = true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+versionRange = "[1.18.2,1.20)"
+ordering = "NONE"
+side = "BOTH"
