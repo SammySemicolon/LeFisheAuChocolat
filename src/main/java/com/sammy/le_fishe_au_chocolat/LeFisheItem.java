@@ -2,6 +2,7 @@ package com.sammy.le_fishe_au_chocolat;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.RecordItem;
@@ -14,7 +15,7 @@ import java.util.function.Supplier;
 
 public class LeFisheItem extends RecordItem {
     public LeFisheItem(Properties builder) {
-        super(7, LeFisheAuChocolat.CHOIR_OF_LE_FISHE, builder, 620);
+        super(7, LeFisheAuChocolat.CHOIR_OF_LE_FISHE, builder);
     }
 
     @Override
@@ -24,6 +25,6 @@ public class LeFisheItem extends RecordItem {
 
     @Override
     public MutableComponent getDisplayName() {
-        return Component.translatable("le_fishe_au_chocolat.subtitle.coeur_du_fishe");
+        return new TranslatableComponent("le_fishe_au_chocolat.subtitle.coeur_du_fishe");
     }
 }
