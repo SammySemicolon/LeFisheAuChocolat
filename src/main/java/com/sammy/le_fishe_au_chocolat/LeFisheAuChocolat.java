@@ -5,7 +5,6 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,7 +23,7 @@ public class LeFisheAuChocolat {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 	public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MODID);
 
-	public static final RegistryObject<SoundEvent> CHOIR_OF_LE_FISHE = SOUNDS.register("coeur_du_fishe", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("le_fishe_au_chocolat:coeur_du_fishe")));
+	public static final RegistryObject<SoundEvent> CHOIR_OF_LE_FISHE = SOUNDS.register("music_disc.coeur_du_fishe", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(MODID,"music_disc.coeur_du_fishe")));
 
 	public static final RegistryObject<Item> LE_FISHE_AU_CHOCOLAT = ITEMS.register("le_fishe_au_chocolat", () ->
 			new LeFisheItem(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(0.3F).build())));

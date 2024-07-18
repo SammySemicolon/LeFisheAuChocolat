@@ -1,3 +1,11 @@
 {
-  "coeur_du_fishe": { "sounds":["le_fishe_au_chocolat:coeur_du_fishe"], "subtitle": "le_fishe_au_chocolat.subtitle.coeur_du_fishe" }
+  "music_disc.coeur_du_fishe": {
+    "category" : "record",
+    "sounds": [
+      {
+        "name": "le_fishe_au_chocolat:records/coeur_du_fishe",
+        "stream": true
+      }
+    ]
+  }
 }
