@@ -2,7 +2,7 @@ modLoader = "javafml"
 loaderVersion = "[47,)"
 license = "All rights reserved"
 [[mods]]
-logoFile = "le_fishe_au_chocolat.png"
+logoFile = "icon.png"
 modId = "le_fishe_au_chocolat"
 version = "${file.jarVersion}"
 displayName = "Le Fishe Au Chocolat"
