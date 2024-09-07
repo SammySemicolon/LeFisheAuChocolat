@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[39,)"
+loaderVersion = "[47,)"
 license = "All rights reserved"
 [[mods]]
 logoFile = "icon.png"
@@ -13,13 +13,13 @@ https://www.youtube.com/watch?v=njFw1NOAu3s
 [[dependencies.le_fishe_au_chocolat]]
 modId = "forge"
 mandatory = true
-versionRange = "[39,)"
+versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.le_fishe_au_chocolat]]
 modId = "minecraft"
 mandatory = true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange = "[1.19.2,1.20)"
+versionRange = "[1.20.1,1.20.6)"
 ordering = "NONE"
 side = "BOTH"
