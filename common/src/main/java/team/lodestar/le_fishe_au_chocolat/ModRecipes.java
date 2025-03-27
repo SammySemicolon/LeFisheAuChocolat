@@ -4,7 +4,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import net.minecraft.resources.ResourceLocation;
 import team.lodestar.le_fishe_au_chocolat.platform.Services;
-import team.lodestar.le_fishe_au_chocolat.platform.services.IPlatformHelper;
 
 public class ModRecipes {
     public static JsonObject LE_FISHE_AU_CHOCOLAT_RECIPE = null;
