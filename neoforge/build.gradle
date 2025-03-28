@@ -19,11 +19,14 @@ neoForge {
             systemProperty('neoforge.enabledGameTestNamespaces', mod_id)
             ideName = "NeoForge ${it.name.capitalize()} (${project.path})" // Unify the run config names with fabric
         }
+        clientData {
+            clientData()
+        }
+        serverData {
+            serverData()
+        }
         client {
             client()
-        }
-        data {
-            data()
         }
         server {
             server()
